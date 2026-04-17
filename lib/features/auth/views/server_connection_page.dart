@@ -37,7 +37,7 @@ class ServerConnectionPage extends ConsumerStatefulWidget {
 
 class _ServerConnectionPageState extends ConsumerState<ServerConnectionPage> {
   final _formKey = GlobalKey<FormState>();
-  final TextEditingController _urlController = TextEditingController(text: 'https://graphics-tuning-thinks-labs.trycloudflare.com');
+  final TextEditingController _urlController = TextEditingController(text: 'https://disposal-hunchback-afoot.ngrok-free.dev');
   final Map<String, String> _customHeaders = {};
   final TextEditingController _headerKeyController = TextEditingController();
   final TextEditingController _headerValueController = TextEditingController();
