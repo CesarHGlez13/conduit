@@ -37,7 +37,7 @@ class ServerConnectionPage extends ConsumerStatefulWidget {
 
 class _ServerConnectionPageState extends ConsumerState<ServerConnectionPage> {
   final _formKey = GlobalKey<FormState>();
-  final TextEditingController _urlController = TextEditingController();
+  final TextEditingController _urlController = TextEditingController(text: 'https://participants-original-deeply-responses.trycloudflare.com');
   final Map<String, String> _customHeaders = {};
   final TextEditingController _headerKeyController = TextEditingController();
   final TextEditingController _headerValueController = TextEditingController();
